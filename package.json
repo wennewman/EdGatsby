@@ -1,18 +1,21 @@
 {
-  "name": "ed-gatsby",
+  "name": "EdGatsby",
   "version": "1.0.0",
   "private": true,
-  "description": "ed-gatsby",
+  "description": "EdGatsby",
   "author": "wennewman",
   "keywords": [
-    "gatsby"
+    "cooking, doggo"
   ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean", 
+    "yeet": "gatsby clean && gatsby build && gatsby serve", 
+    "lint" : "eslint .",
+    "lint:fix": "eslint  . --fix"
   },
   "dependencies": {
     "@mdx-js/react": "^3.1.0",
